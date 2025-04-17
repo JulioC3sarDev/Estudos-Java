@@ -1,8 +1,29 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Compiled class files
+*.class
+
+# Diretório de saída do IntelliJ
+/out/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações específicas da IDE (opcional ignorar)
+.idea/
+*.iml
+
+# Build de Maven ou Gradle (caso use)
+target/
+build/
+
+# Arquivos gerados por testes
+/test-output/
